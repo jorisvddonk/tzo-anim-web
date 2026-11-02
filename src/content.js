@@ -84,16 +84,23 @@ export class ContentStore {
             return entry.blob;
         }
         if (this.baseUrl) {
-            try {
-                const url = new URL(normalizePath(path), this.baseUrl);
-                const response = await fetch(url);
-                if (response.ok) {
-                    const blob = await response.blob();
-                    this.add({ path, blob });
-                    return blob;
+            const url = new URL(normalizePath(path), this.baseUrl);
+            // Retry once: a freshly deployed page can hit a CDN hiccup while
+            // dozens of images are fetched in parallel.
+            for (let attempt = 0; attempt < 2; attempt++) {
+                try {
+                    const response = await fetch(url);
+                    if (response.ok) {
+                        const blob = await response.blob();
+                        this.add({ path, blob });
+                        return blob;
+                    }
+                    if (response.status < 500) {
+                        break;
+                    }
+                } catch (error) {
+                    /* network error: retry */
                 }
-            } catch (error) {
-                /* fall through to "missing" */
             }
         }
         return null;

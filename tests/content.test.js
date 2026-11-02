@@ -48,7 +48,7 @@ test('ContentStore can fall back to fetching from a base URL', async () => {
         assert.equal(await store.resolve('frame0.png'), await store.resolve('frame0.png'));
         assert.equal(requested.length, 1, 'the fetched image is cached');
         assert.equal(await store.resolve('nope.png'), null);
-        assert.equal(requested.length, 2);
+        assert.equal(requested.length, 3, 'a 404 is tried twice (one retry)');
     } finally {
         globalThis.fetch = originalFetch;
     }
@@ -144,4 +144,42 @@ test('entriesFromDirectoryHandle walks nested folders and builds a project', asy
     assert.equal(project.programs[0].name, 'program.json');
     assert.ok(project.store.lookup('base/frame0.png'));
     assert.ok(await project.store.resolve('frame0.png'), 'resolved by file name too');
+});
+
+test('ContentStore retries a failing fetch once', async () => {
+    const originalFetch = globalThis.fetch;
+    let calls = 0;
+    globalThis.fetch = async () => {
+        calls++;
+        if (calls === 1) {
+            return { ok: false, status: 503 };
+        }
+        return { ok: true, blob: async () => blob('retried') };
+    };
+
+    try {
+        const store = new ContentStore([], { baseUrl: new URL('https://example.test/x/') });
+        const result = await store.resolve('a.png');
+        assert.ok(result, 'the second attempt succeeds');
+        assert.equal(calls, 2);
+    } finally {
+        globalThis.fetch = originalFetch;
+    }
+});
+
+test('ContentStore does not retry 404 responses', async () => {
+    const originalFetch = globalThis.fetch;
+    let calls = 0;
+    globalThis.fetch = async () => {
+        calls++;
+        return { ok: false, status: 404 };
+    };
+
+    try {
+        const store = new ContentStore([], { baseUrl: new URL('https://example.test/x/') });
+        assert.equal(await store.resolve('missing.png'), null);
+        assert.equal(calls, 1);
+    } finally {
+        globalThis.fetch = originalFetch;
+    }
 });
