@@ -284,7 +284,7 @@ async function main() {
         /* Loading a .zip                                                */
         /* ------------------------------------------------------------ */
         const zip = await evaluate(`(async () => {
-            const response = await fetch('tests/fixtures/sample.zip');
+            const response = await fetch('examples/sample.zip');
             if (!response.ok) {
                 throw new Error('could not fetch the fixture zip: ' + response.status);
             }

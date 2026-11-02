@@ -278,7 +278,12 @@ const zip = zipSync({
     'sample/frame1.png': frame1,
 }, { level: 9 });
 writeFileSync(join(outDir, 'sample.zip'), zip);
+// Also ship it with the site so the browser smoke test can load it from the
+// production build as well.
+const publicExamples = join(here, '..', 'public', 'examples');
+mkdirSync(publicExamples, { recursive: true });
+writeFileSync(join(publicExamples, 'sample.zip'), zip);
 
 console.log(`wrote ${join(sampleDir, 'program.json')} (${programJson.length} bytes)`);
 console.log(`wrote ${join(sampleDir, 'frame0.png')}, frame1.png`);
-console.log(`wrote ${join(outDir, 'sample.zip')} (${zip.length} bytes)`);
+console.log(`wrote ${join(outDir, 'sample.zip')} and public/examples/sample.zip (${zip.length} bytes)`);
