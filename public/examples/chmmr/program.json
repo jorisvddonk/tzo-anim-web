@@ -1,0 +1,7175 @@
+{
+  "context": {},
+  "exit": false,
+  "pause": false,
+  "labelMap": {
+    "mainAnimationLoop": 440
+  },
+  "programList": [
+    {
+      "type": "push-number-instruction",
+      "value": 0,
+      "comment": "hotspot y of chmmr.0.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.0.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -54,
+      "comment": "hotspot y of chmmr.1.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -36
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.1.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -54,
+      "comment": "hotspot y of chmmr.2.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -77
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.2.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -54,
+      "comment": "hotspot y of chmmr.3.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -77
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.3.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -54,
+      "comment": "hotspot y of chmmr.4.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -77
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.4.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -54,
+      "comment": "hotspot y of chmmr.5.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -77
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.5.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -83,
+      "comment": "hotspot y of chmmr.6.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -36
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.6.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -83,
+      "comment": "hotspot y of chmmr.7.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -36
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.7.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -83,
+      "comment": "hotspot y of chmmr.8.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -36
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.8.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -83,
+      "comment": "hotspot y of chmmr.9.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -36
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.9.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -83,
+      "comment": "hotspot y of chmmr.10.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -36
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.10.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -83,
+      "comment": "hotspot y of chmmr.11.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -36
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.11.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -10,
+      "comment": "hotspot y of chmmr.12.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -98
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.12.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -10,
+      "comment": "hotspot y of chmmr.13.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -98
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.13.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -10,
+      "comment": "hotspot y of chmmr.14.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -98
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.14.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -10,
+      "comment": "hotspot y of chmmr.15.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -98
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.15.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -10,
+      "comment": "hotspot y of chmmr.16.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -98
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.16.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -25,
+      "comment": "hotspot y of chmmr.17.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -169
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.17.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -25,
+      "comment": "hotspot y of chmmr.18.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -169
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.18.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -25,
+      "comment": "hotspot y of chmmr.19.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -169
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.19.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -25,
+      "comment": "hotspot y of chmmr.20.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -169
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.20.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -25,
+      "comment": "hotspot y of chmmr.21.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -169
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.21.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -94,
+      "comment": "hotspot y of chmmr.22.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -94
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.22.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -94,
+      "comment": "hotspot y of chmmr.23.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -94
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.23.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -94,
+      "comment": "hotspot y of chmmr.24.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -94
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.24.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -94,
+      "comment": "hotspot y of chmmr.25.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -94
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.25.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -94,
+      "comment": "hotspot y of chmmr.26.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -94
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.26.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.27.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.27.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.28.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.28.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.29.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.29.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.30.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.30.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.31.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.31.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.32.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.32.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.33.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.33.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.34.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.34.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.35.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.35.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.36.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.36.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.37.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.37.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.38.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.38.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.39.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.39.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.40.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.40.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.41.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.41.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.42.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.42.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.43.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.43.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.44.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.44.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.45.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.45.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.46.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -179
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.46.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.47.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -193
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.47.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.48.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -193
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.48.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.49.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -193
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.49.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.50.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -193
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.50.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.51.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -193
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.51.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.52.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -193
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.52.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.53.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -193
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.53.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.54.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -193
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.54.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.55.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -193
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.55.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.56.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -193
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.56.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.57.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -193
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.57.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.58.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -193
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.58.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.59.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -193
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.59.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -76,
+      "comment": "hotspot y of chmmr.60.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -193
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.60.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.61.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.61.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.62.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.62.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.63.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.63.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.64.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.64.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.65.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.65.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.66.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.66.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.67.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.67.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.68.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.68.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.69.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.69.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.70.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.70.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.71.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.71.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.72.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.72.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.73.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.73.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.74.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.74.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.75.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.75.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.76.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.76.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.77.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.77.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.78.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.78.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.79.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.79.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.80.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.80.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.81.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.81.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.82.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.82.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.83.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.83.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -26,
+      "comment": "hotspot y of chmmr.84.png"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -235
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "chmmr.84.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_active",
+      "comment": "Static background (BACKGROUND)"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_active",
+      "comment": "Lightning bolts (RANDOM)"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_yy_direction"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_active",
+      "comment": "Star 1 (CIRCULAR)"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_yy_direction"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_active",
+      "comment": "Star 2 (CIRCULAR)"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_yy_direction"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_active",
+      "comment": "Star 3 (CIRCULAR)"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_yy_direction"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 6
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_active",
+      "comment": "Bouncy1 (CIRCULAR)"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_yy_direction"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_active",
+      "comment": "Bouncy2 (CIRCULAR)"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_yy_direction"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_active",
+      "comment": "Bouncy3 (CIRCULAR)"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_yy_direction"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "pause",
+      "comment": "all textures and animation state are ready"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "nop",
+      "comment": "main animation loop (mainAnimationLoop)"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "beginDraw"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 2
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 2
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 4
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 4
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 5
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 5
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 6
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 6
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 7
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 7
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 8
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 8
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 9
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 9
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 10
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 10
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 11
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 12
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 13
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 2
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 14
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 15
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 4
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 16
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 17
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 18
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 2
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 19
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 20
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 4
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 21
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 22
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 23
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 2
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 24
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 25
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 4
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 26
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 27
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 28
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 2
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 29
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 30
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 4
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 31
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 5
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 32
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 6
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 33
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 7
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 34
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 8
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 35
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 9
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 36
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 10
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 37
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 11
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 38
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 12
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 39
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 13
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 40
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 14
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 41
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 15
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 42
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 16
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 43
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 17
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 44
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 18
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 45
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 19
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 46
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 47
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 48
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 2
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 49
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 50
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 4
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 51
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 5
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 52
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 6
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 53
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 7
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 54
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 8
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 55
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 9
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 56
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 10
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 57
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 11
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 58
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 12
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 59
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 13
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 60
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 61
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 62
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 2
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 63
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 64
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 4
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 65
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 5
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 66
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 6
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 67
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 7
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 68
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 8
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 69
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 9
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 70
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 10
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 71
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 11
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 72
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 12
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 74
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 13
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 75
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 14
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 76
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 15
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 77
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 16
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 78
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 17
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 79
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 18
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 80
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 19
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 81
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 20
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 82
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 21
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 83
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 22
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 84
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "endDraw"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "+"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "lt"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 11
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "randInt"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 2
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 4
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 30
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "+"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "lt"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "+"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 5
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 2
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 4
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 63
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "+"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "lt"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "+"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 5
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 6
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 6
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 2
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 6
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 6
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 4
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 39
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "+"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_step"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "lt"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "+"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 5
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "+"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "lt"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "+"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 20
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "+"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "lt"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "+"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 14
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "+"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 3
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "lt"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "+"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 23
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_1_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_2_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_3_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_4_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_5_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_6_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_7_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "pause"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "mainAnimationLoop"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "goto"
+    }
+  ],
+  "programCounter": 0,
+  "stack": []
+}

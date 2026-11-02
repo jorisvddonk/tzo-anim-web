@@ -1,0 +1,420 @@
+{
+  "context": {},
+  "exit": false,
+  "pause": false,
+  "labelMap": {
+    "mainAnimationLoop": 21
+  },
+  "programList": [
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "frame0.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -2
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -4
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "frame1.png"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "loadImage"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_yy_direction"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "pause"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "nop"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "beginDraw"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "drawFrame"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "endDraw"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "+"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 2
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "lt"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "not"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_tick"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "+"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 2
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_index"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "pause"
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "mainAnimationLoop"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "goto"
+    }
+  ],
+  "programCounter": 0,
+  "stack": []
+}

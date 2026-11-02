@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tzo-anim — web player</title>
+    <meta name="description" content="Play TZO animation programs (tzo-anim) in the browser: drop a .zip with the program and its content files, or open a JSON program plus its folder.">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%F0%9F%92%8E%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+<div class="app">
+    <header class="topbar">
+        <div class="brand">
+            <span class="brand-gem">💎</span>
+            <span class="brand-name">tzo-anim</span>
+            <span class="brand-sub">web player</span>
+        </div>
+        <div class="topbar-actions">
+            <button class="btn" id="openFolderBtn" type="button" title="Pick a folder containing a .json program and its images">
+                <span class="btn-icon">📁</span> Open folder…
+            </button>
+            <button class="btn" id="openZipBtn" type="button" title="Pick a .zip containing a .json program and its images">
+                <span class="btn-icon">🗜️</span> Open .zip…
+            </button>
+            <button class="btn" id="openJsonBtn" type="button" title="Pick a .json program file (images can be added with a folder)">
+                <span class="btn-icon">📄</span> Open program…
+            </button>
+            <button class="btn" id="exampleBtn" type="button" title="Load the bundled example program">
+                <span class="btn-icon">✨</span> Load example
+            </button>
+            <button class="btn btn-icon-only" id="themeBtn" type="button" title="Toggle light/dark theme" aria-label="Toggle theme">🌙</button>
+        </div>
+    </header>
+
+    <main class="layout">
+        <section class="stage-wrap">
+            <div class="stage" id="stage">
+                <canvas id="screen" class="screen is-empty" width="320" height="200" aria-label="Animation output"></canvas>
+                <div class="empty-state" id="emptyState">
+                    <div class="empty-gem">💎</div>
+                    <h1>Drop a TZO animation project here</h1>
+                    <p>
+                        A <code>.zip</code> with the program <code>.json</code> and its content files, a folder
+                        with the same, or a <code>.json</code> program plus its folder.
+                    </p>
+                    <div class="empty-actions">
+                        <button class="btn" type="button" data-action="open-folder">Open folder…</button>
+                        <button class="btn" type="button" data-action="open-zip">Open .zip…</button>
+                        <button class="btn" type="button" data-action="open-json">Open program…</button>
+                        <button class="btn btn-accent" type="button" data-action="example">Load example</button>
+                    </div>
+                    <p class="empty-note">
+                        The player runs the official <code>tzo</code> virtual machine and implements the
+                        <code>loadImage</code> / <code>beginDraw</code> / <code>endDraw</code> /
+                        <code>drawFrame</code> animation extension from tzo-c's <code>anim.c</code>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="transport" id="transport">
+                <button class="btn btn-accent btn-play" id="playBtn" type="button" disabled>
+                    <span id="playIcon">▶</span> <span id="playLabel">Play</span>
+                </button>
+                <button class="btn" id="stepBtn" type="button" disabled title="Run one tick">⏭ Step</button>
+                <button class="btn" id="restartBtn" type="button" disabled title="Restart the program">⟲ Restart</button>
+
+                <label class="control" for="speedInput">
+                    <span class="control-label">Speed</span>
+                    <input id="speedInput" type="range" min="1" max="120" step="1" value="30" disabled>
+                    <output id="speedValue" class="control-value">30/s</output>
+                </label>
+
+                <label class="control" for="zoomInput">
+                    <span class="control-label">Zoom</span>
+                    <select id="zoomInput" disabled>
+                        <option value="fit" selected>Fit</option>
+                        <option value="1">1×</option>
+                        <option value="2">2×</option>
+                        <option value="3">3×</option>
+                        <option value="4">4×</option>
+                    </select>
+                </label>
+
+                <div class="transport-spacer"></div>
+                <div class="tick-counter"><span id="tickCount">0</span> ticks</div>
+            </div>
+        </section>
+
+        <aside class="sidebar">
+            <section class="panel">
+                <h2 class="panel-title">Program</h2>
+                <dl class="facts" id="facts">
+                    <dt>Status</dt><dd id="factStatus">no program loaded</dd>
+                    <dt>Source</dt><dd id="factSource">—</dd>
+                    <dt>Instructions</dt><dd id="factInstructions">—</dd>
+                    <dt>Textures</dt><dd id="factTextures">—</dd>
+                    <dt>Animations</dt><dd id="factAnimations">—</dd>
+                    <dt>Canvas</dt><dd id="factCanvas">—</dd>
+                </dl>
+            </section>
+
+            <section class="panel panel-grow">
+                <h2 class="panel-title">Animation state</h2>
+                <p class="panel-hint" id="animHint">The <code>anim_anim_*</code> context keys of the running program appear here.</p>
+                <div class="table-wrap">
+                    <table class="data-table" id="animTable">
+                        <thead>
+                        <tr><th>Animation</th><th>index</th><th>active</th><th>dir</th><th>tick</th></tr>
+                        </thead>
+                        <tbody id="animTableBody"></tbody>
+                    </table>
+                </div>
+                <details class="context-details">
+                    <summary>All context keys (<span id="contextCount">0</span>)</summary>
+                    <pre class="context-pre" id="contextPre"></pre>
+                </details>
+            </section>
+
+            <section class="panel panel-log">
+                <h2 class="panel-title">Log</h2>
+                <ul class="log" id="log"></ul>
+            </section>
+        </aside>
+    </main>
+
+    <footer class="statusbar">
+        <span id="statusText">Ready — drop a .zip, folder or program file.</span>
+        <span class="statusbar-spacer"></span>
+        <span id="statusRate">—</span>
+    </footer>
+</div>
+
+<div class="drop-overlay" id="dropOverlay" aria-hidden="true">
+    <div class="drop-overlay-inner">
+        <div class="drop-overlay-gem">💎</div>
+        Drop the animation project to play it
+    </div>
+</div>
+
+<div class="dialog-backdrop" id="dialogBackdrop" hidden>
+    <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="dialogTitle">
+        <div class="dialog-title" id="dialogTitle">Choose a program</div>
+        <div class="dialog-body" id="dialogBody"></div>
+        <div class="dialog-actions">
+            <button class="btn" id="dialogCancel" type="button">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
