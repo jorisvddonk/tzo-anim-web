@@ -216,6 +216,10 @@ async function main() {
         check('app boots', await waitFor('Boolean(window.tzoAnimApp)'));
         check('example program loads', await waitFor('window.tzoAnimApp.player.loaded && window.tzoAnimApp.renderer.textures.length === 85'));
 
+        // The player starts playing automatically; wait for a few ticks so the
+        // drawing assertions below are not racing the first animation frame.
+        check('the player starts playing by itself', await waitFor('window.tzoAnimApp.player.ticks >= 3', 5000));
+
         const info = await evaluate(`(() => {
             const app = window.tzoAnimApp;
             const buffer = app.renderer.buffer;
