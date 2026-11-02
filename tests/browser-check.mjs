@@ -214,6 +214,25 @@ async function main() {
         await loaded;
 
         check('app boots', await waitFor('Boolean(window.tzoAnimApp)'));
+
+        const spec = await evaluate(`(async () => {
+            const response = await fetch('docs/anim-format.md');
+            const text = response.ok ? await response.text() : '';
+            return {
+                status: response.status,
+                title: text.split('\\n')[0],
+                hasTrace: text.includes('reference trace'),
+                emptyLink: document.querySelector('.empty-note a')?.getAttribute('href'),
+                statusbarLink: document.querySelector('.statusbar-link')?.getAttribute('href'),
+            };
+        })()`);
+        check('the format specification is served and linked from the UI',
+            spec.status === 200
+            && spec.title === '# The TZO animation format ("tzo-anim")'
+            && spec.hasTrace
+            && spec.emptyLink === './docs/anim-format.md'
+            && spec.statusbarLink === './docs/anim-format.md',
+            JSON.stringify(spec));
         check('example program loads', await waitFor('window.tzoAnimApp.player.loaded && window.tzoAnimApp.renderer.textures.length === 85'));
 
         // The player starts playing automatically; wait for a few ticks so the
