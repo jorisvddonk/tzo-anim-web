@@ -7,6 +7,8 @@ import { test } from 'node:test';
 import {
     ContentStore,
     buildProject,
+    entriesFromDirectoryHandle,
+    projectFromDirectoryHandle,
     projectFromEntries,
     projectFromFiles,
     projectFromZip,
@@ -110,4 +112,36 @@ test('programs called program.json sort first', async () => {
     const program = (name) => ({ path: name, blob: blob(JSON.stringify({ programList: [] })) });
     const project = await buildProject([program('zzz.json'), program('program.json'), program('aaa.json')]);
     assert.deepEqual(project.programs.map((entry) => entry.name), ['program.json', 'aaa.json', 'zzz.json']);
+});
+
+test('entriesFromDirectoryHandle walks nested folders and builds a project', async () => {
+    const fileHandle = (name, text) => ({
+        kind: 'file',
+        getFile: async () => new File([text], name),
+    });
+    const directoryHandle = (name, children) => ({
+        kind: 'directory',
+        name,
+        async *entries() {
+            for (const [childName, handle] of Object.entries(children)) {
+                yield [childName, handle];
+            }
+        },
+    });
+
+    const handle = directoryHandle('demo', {
+        'program.json': fileHandle('program.json', JSON.stringify({ programList: [{ type: 'invoke-function-instruction', functionName: 'pause' }] })),
+        'base': directoryHandle('base', {
+            'frame0.png': fileHandle('frame0.png', 'png'),
+        }),
+    });
+
+    const entries = await entriesFromDirectoryHandle(handle);
+    assert.deepEqual(entries.map((entry) => entry.path).sort(), ['base/frame0.png', 'program.json']);
+
+    const project = await projectFromDirectoryHandle(handle);
+    assert.equal(project.label, 'demo');
+    assert.equal(project.programs[0].name, 'program.json');
+    assert.ok(project.store.lookup('base/frame0.png'));
+    assert.ok(await project.store.resolve('frame0.png'), 'resolved by file name too');
 });
