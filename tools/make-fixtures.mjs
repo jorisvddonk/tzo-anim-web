@@ -245,6 +245,21 @@ function buildProgram() {
         },
     );
 
+    // epilogue: every _active == -1 becomes 0 (see the format spec, §8)
+    ifBlock(
+        () => {
+            pushString(key('active'));
+            invoke('getContext');
+            pushNumber(-1);
+            invoke('eq');
+        },
+        () => {
+            pushNumber(0);
+            pushString(key('active'));
+            invoke('setContext');
+        },
+    );
+
     invoke('pause');
     pushString('mainAnimationLoop');
     invoke('goto');

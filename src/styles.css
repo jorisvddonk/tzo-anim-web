@@ -359,6 +359,15 @@ select:disabled {
     color: var(--text-faint) !important;
 }
 
+.empty-note a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.empty-note a:hover {
+    text-decoration: underline;
+}
+
 /* ------------------------------------------------------------------ */
 /* Transport                                                           */
 /* ------------------------------------------------------------------ */
@@ -585,6 +594,17 @@ select:disabled {
 
 .statusbar-spacer {
     flex: 1 1 auto;
+}
+
+.statusbar-link {
+    color: var(--text-faint);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.statusbar-link:hover {
+    color: var(--accent);
+    text-decoration: underline;
 }
 
 /* ------------------------------------------------------------------ */

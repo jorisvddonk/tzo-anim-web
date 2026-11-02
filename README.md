@@ -10,6 +10,16 @@ the `anim_anim_<i>_index` / `_active` / `_yy_direction` context state.
 
 Live: **https://jorisvddonk.github.io/tzo-anim-web/**
 
+## Format specification
+
+The animation extension is documented in
+[`public/docs/anim-format.md`](public/docs/anim-format.md) (served at
+`/docs/anim-format.md`): foreign functions, texture/hotspot model, the
+`anim_anim_*` context state, program structure, timing, animation types and a
+reference trace you can validate a new implementation against. It deliberately
+covers only the animation additions — the VM itself is the
+[core TZO specification](https://github.com/jorisvddonk/tzo).
+
 ## How it works
 
 * The TZO virtual machine is the **official [`tzo` npm package](https://www.npmjs.com/package/tzo)**

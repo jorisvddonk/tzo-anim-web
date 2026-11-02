@@ -403,6 +403,46 @@
       "functionName": "}"
     },
     {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "getContext"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": -1
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "eq"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "jgz"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "{"
+    },
+    {
+      "type": "push-number-instruction",
+      "value": 0
+    },
+    {
+      "type": "push-string-instruction",
+      "value": "anim_anim_0_active"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "setContext"
+    },
+    {
+      "type": "invoke-function-instruction",
+      "functionName": "}"
+    },
+    {
       "type": "invoke-function-instruction",
       "functionName": "pause"
     },
